@@ -1,9 +1,9 @@
 nav {
-  background-color: red;
+  background-color: rgb(201, 62, 62);
   min-height: 60px;
 }
 header {
-background-color: darkgreen;
+background-color: rgb(66, 212, 66);
 min-height: 150px;
 }
 main {
@@ -11,11 +11,11 @@ main {
   min-height: 350px;
 }
 aside {
-  background-color: purple;
+  background-color: rgb(241, 100, 241);
   min-height: 350px;
   }
 footer {
-background-color: blue;
+background-color: rgb(73, 73, 189);
 min-height: 80px;
 }
 .placeholder {
@@ -31,9 +31,11 @@ min-height: 80px;
 .row {
   display: flex;
 }
-aside {
-  width: 25%;
-}
 .column {
   flex: 1 0 0;
+  /* 
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  */
 }
