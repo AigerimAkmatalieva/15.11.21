@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 nav {
   background-color: rgb(201, 62, 62);
   min-height: 60px;
@@ -38,4 +41,8 @@ min-height: 80px;
   flex-shrink: 0;
   flex-basis: 0;
   */
+}
+.container {
+  max-width: 980px;
+ margin: 0 auto;
 }
