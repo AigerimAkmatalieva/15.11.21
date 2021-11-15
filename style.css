@@ -34,9 +34,6 @@ min-height: 80px;
 aside {
   width: 25%;
 }
-main{
-  width: 75%;
-}
-header{
-  width: 75%;
+.column {
+  flex: 1 0 0;
 }
