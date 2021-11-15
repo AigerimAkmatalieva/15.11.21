@@ -8,8 +8,12 @@ min-height: 150px;
 }
 main {
   background-color: aqua;
-  min-height: 35px;
+  min-height: 350px;
 }
+aside {
+  background-color: purple;
+  min-height: 350px;
+  }
 footer {
 background-color: blue;
 min-height: 80px;
@@ -23,4 +27,13 @@ min-height: 80px;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+}
+.row {
+  display: flex;
+}
+aside {
+  width: 25%;
+}
+main{
+  width: 50%;
 }
